@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.row{
+  display: flex;
+  flex-wrap: wrap;
+            
+}
+
+.column{
+  flex: 25%;
+  max-width: 25%;
+}
+@media screen and (max-width: 800px){
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="column">
+            <img src="images/coorg.jpg" alt="100%" width="100%">
+            <img src="images/golden-temple-coorg.jpg" alt="100%" width="100%">
+            <img src="images/travel 2.jpg" alt="100%" width="100%">
+          </div>
+          <div class="column">
+            <img src="images/grand 1.jpg" alt="100%" width="100%">
+            <img src="images/hampi1.jpg" alt="100%" width="100%">
+            <img src="images/travel 1.jpg" alt="100%" width="100%">
+            </div>
+            <div class="column">
+              <img src="images/hambi 1.webp" alt="100px" width="100%">
+              <img src="images/hambi 3.jpg" alt="100px" width="100%">
+              <img src="images/pexels-photo-16863821.webp" alt="100px" width="100%">
+
+
+            </div>
+            <div class="column">
+              <img src="images/sky.webp" alt="100px" width="100%">
+              <img src="images/flower.webp" alt="100px" width="100%">
+              <img src="images/hampi1.jpg" alt="100px" width="100%">
+
+            </div>
+    </div>
+</body>
+</html>

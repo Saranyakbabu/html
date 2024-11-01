@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .res {
+            display: flex;
+            align-items: center;
+        }
+
+        @media screen and (max-width: 900px) {
+            .res {
+                flex-direction: column;
+            }
+
+            .d1s2 ul {
+                flex-direction: column;
+            }
+
+            .d1s2 ul li {
+                padding: 10px;
+            }
+        }
+
+        @media screen and (max-width: 700px) {
+            .d1 {
+                flex-direction: column;
+            }
+        }
+
+        .d1 {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .d1s1 {
+            display: flex;
+            align-items: center;
+        }
+
+        .d1s2 ul {
+            display: flex;
+            list-style-type: none;
+            gap: 15px;
+        }
+
+        .d1s2 ul a {
+            text-decoration: none;
+            color: black;
+            padding: 15px;
+            border-radius: 20px;
+        }
+
+        .d1s2 a:hover {
+            background-color: red;
+            color: azure;
+        }
+
+        .d1s3 {
+            display: flex;
+        }
+
+        .d2 {
+            display: flex;
+            padding-top: 50px;
+        }
+
+        @media screen and (max-width: 1200px) {
+            .d2 {
+                flex-direction: column;
+            }
+        }
+
+        .d2s1 {
+            flex: 40%;
+            padding-left: 180px;
+            padding-top: 80px;
+        }
+
+        .d2s1 p {
+            font-size: 70px;
+            margin-left: -50%;
+        }
+
+        .d2s2 {
+            flex: 60%;
+        }
+
+        .d3 p {
+            font-size: 50px;
+            justify-content: center;
+            display: flex;
+        }
+
+        .p1 {
+            justify-content: center;
+... (552 lines left)

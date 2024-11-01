@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restoran</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            background-image:linear-gradient(rgba(15,23,43,.9),rgba(15,23,43,.9)),url(bg-hero.jpg);
+            /* background-size: cover; */
+            /* background-color: #222; */
+            /* position: relative; */
+            /* background-color: rgba(0., 0, 0, 0.5); */
+            /* background-blend-mode: multiply; */
+        }
+
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .navbar .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ffb400;
+        }
+
+        .navbar .nav-links {
+            list-style: none;
+            display: flex;
+        }
+
+        .navbar .nav-links li {
+            margin-right: 20px;
+        }
+
+        .navbar .nav-links li a {
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+        }
+
+        .navbar .btn {
+            background-color: #ffb400;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: white;
+            border-radius: 5px;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 50px;
+            color: white;
+            height: 100vh;
+            
+        }
+
+        .header-content {
+            max-width: 50%;
+        }
+
+        .header-content h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .header-content p {
+            margin-bottom: 30px;
+            font-size: 18px;
+        }
+
+        .header-content .btn {
+            background-color: #ffb400;
+            padding: 15px 30px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        .header-image img {
+            max-width: 50%;
+            border-radius: 10px;
+            margin-left: 180px;
+            animation: rotate 10s linear infinite;
+        }
+
+            @keyframes rotate {
+                from {
+                    transform: rotate(0deg);
+                }
+
+                to {
+                    transform: rotate(360deg);
+                }
+            }
+    </style>
+</head>
+
+<body>
+    
+    <nav class="navbar">
+        <div class="logo">Restoran</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Pages</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <a href="#" class="btn">Book a Table</a>
+    </nav>
+
+    
+    <header class="header">
+        <div class="header-content">
+            <h1>Enjoy Our Delicious Meal</h1>
+            <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.</p>
+            <a href="#" class="btn">Book a Table</a>
+        </div>
+        <div class="header-image">
+            <img src="https://cdn.discordapp.com/attachments/1291262455393026070/1291263469043318856/hero.png?ex=670e9f91&is=670d4e11&hm=f5bd630e5fe001e65769c377459cdaa77b3570710403bfe4409da4ad614806c5&" alt=>
+        </div>
+    </header>
+    
+</body>
+
+</html>
+</body>
+</html>

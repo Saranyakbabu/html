@@ -23,32 +23,55 @@
             display: flex;
             justify-content: space-around;
             align-items: center;
+        }
+        
+
+        .h1 img{
+            position: relative;
+            animation-name: S1;
+            animation-duration: 5s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+        .a3{
+            position: relative;
+            animation-name:c1 ;
+            animation-duration: 2s;
+            animation-timing-function:linear ;
+            animation-iteration-count: infinite;
+        }
+
+
+        @keyframes S1{
+            0%{
+                transform: translate(0px);
+            }
+            50%{
+                transform: translate(50px);
+            }
+            100%{
+                transform: translate(0px);
+            }
+        }
+        @keyframes c1{
+            0%{
+                transform: translateX(0px);
+            }
+            100%{
+                transform: translateX(100px);
+            }
+
+
             
         }
-        .s1{
-            list-style-type: none;
-            display: flex;
-            gap: 12px;
-            
-        }
-        .s2{
-            background-color:lightblue;
-            text-align: center;
-            border-radius: 6px;
-        }
-        .s3{
-            background-color: lightcoral;
-            text-align: center;
-            border-radius: 6px;
-        }
-        .s4{
-            background-color: lightblue;
-            text-align: center;
-            border-radius: 6px;
-        }
+        
+      
+
+        
     </style>
 </head>
 <body>
+    
     <nav>
         <div class="a1">
             <h2>SBS</h2>
@@ -70,25 +93,10 @@
             <h1>SCHOOL</h1>
             <h5>READ MORE</h5>
         </div>
-        <div>
+        <div class="h1">
             <img src="image.png" alt="width 155px" height="555px">
     
         </div>
     </div>
-    <div class="s1"
-        <div class="s2">
-            <h1>SKATEBOARD</h1>
-            <h3>there are many variation of passages of lorem ipsum available,</h3>
-        </div>
-        <div class="s3">
-            <h1>SKATEBOARD</h1>
-            <h3>there are many variation of passages of lorem ipsum available,</h3>
-        </div>
-        <div class="s4">
-            <h1>SKATEBOARD</h1>
-            <h3>there are many variation of passages of lorem ipsum available,</h3>
-        </div>
-    </div>
-
 </body>
 </html>

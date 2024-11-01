@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        .a1 {
+            background-color: blue;
+            display: flex;
+            color: white;
+        }
+
+        ul {
+            display: flex;
+            list-style-type: none;
+            gap: 11px;
+            padding-left: 50px;
+            padding-top: 12px;
+
+        }
+
+        .a4 {
+            background-color: blue;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .a41 h2 {
+            transform: translate(65px, 111px);
+        }
+
+        .a41,
+        .a42 {
+            flex: 50%;
+            max-width: 50%;
+            color: white;
+        }
+
+        .a6 {
+            display: flex;
+        }
+
+        .content {
+            display: flex;
+        }
+        .z1{
+            padding: 12px;
+        }
+
+        @media screen and (max-width :600px) {
+
+            .a1,
+            ul {
+                flex-direction: column;
+                width: 100%;
+                text-align: center;
+                padding: 0px;
+            }
+
+            .a4 {
+                flex-direction: column;
+
+            }
+            .a41 h2 {
+            transform: translate(0px, 0px);
+        }
+
+            .a41,
+            .a42 {
+                /* flex: 100%; */
+                margin: auto;
+            }
+
+            .a5 {
+                flex-direction: column;
+            }
+
+            .s1{
+                flex-direction: column;
+            }
+            .e1{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            
+
+            
+            
+        }
+        .s1 {
+
+            display: flex;
+            
+            
+        }
+        </style>
+</head>
+
+<body>
+    <div class="a1">
+        <div>
+            <h2 style="padding: 12px;">BUSINES</h2>
+        </div>
+        <div class="a2">
+            <ul>
+                <li>HOME</li>
+                <li>Services</li>
+                <li>Portfolio</li>
+                <li>Pricing</li>
+                <li>Team</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+    </div>
+    <div class="a4">
+        <div class="a41">
+            <h2>Corporate and Business<br> Site Template by ayro Ul.</h2>
+            <button class="z1">GET STARTED</button>
+        </div>
+        <div class="a42">
+            <img src="college-girl-boy-studying-together.jpg" alt="100px" height="300px" width="90%"
+                style="padding: 10px;">
+        </div>
+    </div>
+    <div class="s1">
+        <div>
+            <img src="images/1-hero-image.jpg" alt="100px" height="350px" width="90%" style="padding: 10px; ">
+        </div>
+        <div>
+            <h2>Our Team Comes With The<br> Experience And Knowledge </h2>
+            <div class="e1">
+            <BUtton>Who we are</BUtton>
+            <button>our vision</button>
+            <button>our history</button>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
